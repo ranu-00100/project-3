@@ -1,0 +1,104 @@
+ /* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('ai-img/background3.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Arial, sans-serif; 
+}
+.hero.section{
+  margin-top:200px;
+}
+.hero.section h1{
+    color:white;
+    font-size:80px;
+    margin-top:150px;
+    margin-left:450px;
+    text-shadow:2px 9px 3px rgb(9, 9, 61),2px 6px 6px white;
+}
+.hero.section p{
+    color:white;
+    font-size:20px;
+    margin-top:170;
+    margin-left:530px;
+
+}
+.hero.section h2{
+    color:white;
+    font-size:27px;
+    margin-top:150;
+    margin-left:406px;
+
+}
+.about-section{
+  background-image:url('ai-img/background2.jpg');
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+  background-size:100%;
+}
+/* Custom Styles for Animation & Hover*/
+  .form-select.animated-select {
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  .form-select.animated-select:hover {
+    border-color: #3f51b5;
+    box-shadow: 0 0 10px rgba(63, 81, 181, 0.3);
+  }
+  .hover-effect {
+    transition: transform 0.2s;
+  }
+  .hover-effect:hover {
+    transform: scale(1.05);
+    background-color: #303f9f;
+  }
+ .footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+    transition: color 0.3s ease;
+  }
+
+  .footer-link:hover {
+    color: #ba68c8;
+    text-decoration: underline;
+  }
+
+  .social-icon {
+    color: white;
+    font-size: 22px;
+    margin-right: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #e1bee7;
+    transform: scale(1.2);
+  }
+
+  .back-to-top {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .back-to-top:hover {
+    background-color: #9c27b0;
+  }
+
